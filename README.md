@@ -79,16 +79,6 @@ npm i @igorskyflyer/unite
 
 ## API
 
-### `UnionValidator<T>`
-
-```typescript
-interface UnionValidator<T extends readonly string[]>
-```
-
-The interface returned by [`union()`](#unionallowedvalues). Exported to allow explicit type annotations on exported variables when strict declaration emit is required.
-
-<br>
-
 ### `union(allowedValues)`
 
 ```typescript
@@ -98,6 +88,16 @@ function union<const T extends readonly string[]>(allowedValues: T): UnionValida
 Derives a literal union type and a matching runtime validator from a single array of allowed string values.
 
 The array should be passed as a literal, or as a value typed with `as const`, so that TypeScript can infer its literal element types rather than widening them to `string`. Passing a variable explicitly typed as `string[]` is rejected at compile time.
+
+<br>
+
+### `UnionValidator<T>`
+
+```typescript
+interface UnionValidator<T extends readonly string[]>
+```
+
+The interface returned by [`union()`](#unionallowedvalues). Exported to allow explicit type annotations on exported variables when strict declaration emit is required.
 
 <br>
 
