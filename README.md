@@ -250,4 +250,4 @@ Licensed under the [**MIT license**](https://github.com/igorskyflyer/npm-unite/b
 
 ## Author
 
-Created by <a href="https://igorskyflyer.me/"><strong>Igor Dimitrijević (<em>igorskyflyer</em>)</strong></a>, a senior full-stack software engineer and freelance architect.
+Created by <a href="https://igorskyflyer.me/"><strong>Igor Dimitrijević (<em>igorskyflyer</em>)</strong></a> - a senior full-stack software engineer and freelance architect.
