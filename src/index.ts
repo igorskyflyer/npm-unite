@@ -7,7 +7,7 @@
  * via {@link ExtractUnion}, and runtime membership checks for single
  * values and arrays.
  */
-interface UnionValidator<T extends readonly string[]> {
+export interface UnionValidator<T extends readonly string[]> {
   /** @internal */
   readonly _type: T[number];
 
