@@ -193,7 +193,8 @@ import { union, type UnionValidator } from '@igorskyflyer/unite'
 
 const allowed = ['script', 'style'] as const
 
-export const resourceType: UnionValidator<typeof allowed> = union(allowed) // usage when `isolatedDeclarations` is enabled in project's TSConfig
+export const resourceType: UnionValidator<typeof allowed> = union(allowed)
+// usage when `isolatedDeclarations` is enabled in project's TSConfig
 ```
 
 <br>
