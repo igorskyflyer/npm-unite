@@ -30,6 +30,9 @@
   - [**.isValidArray()**](#isvalidarrayvalue)
   - [**ExtractUnion\<T\>**](#extractuniont)
 - 🗒️ [**Examples**](#examples)
+- [**Basic Usage**](#basic-usage)
+- [**Type Narrowing**](#type-narrowing)
+- [**Usage with --isolatedDeclarations**](#usage-with---isolateddeclarations)
 - ⚙️ [**Implementation**](#implementation)
 - 🎯 [**Motivation**](#motivation)
 - 📝 [**Changelog**](#changelog)
@@ -149,6 +152,8 @@ Extracts the literal union type from a `UnionValidator` instance returned by `un
 
 ## Examples
 
+### Basic Usage
+
 ```typescript
 import { union, type ExtractUnion } from '@igorskyflyer/unite'
 
@@ -169,6 +174,8 @@ resourceType.values
 // readonly ["script", "style"]
 ```
 
+### Type Narrowing
+
 ```typescript
 // Narrowing unknown input, e.g. parsed JSON or a config value.
 
@@ -178,6 +185,8 @@ function handle(input: unknown) {
   }
 }
 ```
+
+### Usage with --isolatedDeclarations
 
 ```typescript
 import { union, type UnionValidator } from '@igorskyflyer/unite'
