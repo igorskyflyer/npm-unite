@@ -25,9 +25,9 @@
 - 🤹🏼 [**API**](#api)
   - [**union()**](#unionallowedvalues)
   - [**UnionValidator\<T\>**](#unionvalidatort)
-  - [**.values**](#values)
-  - [**.isValid()**](#isvalidvalue)
-  - [**.isValidArray()**](#isvalidarrayvalue)
+    - [**.values**](#values)
+    - [**.isValid()**](#isvalidvalue)
+    - [**.isValidArray()**](#isvalidarrayvalue)
   - [**ExtractUnion\<T\>**](#extractuniont)
 - 🗒️ [**Examples**](#examples)
     - [**Basic Usage**](#basic-usage)
@@ -104,7 +104,7 @@ The interface returned by [`union()`](#unionallowedvalues). Exported to allow ex
 
 <br>
 
-### `.values`
+#### `.values`
 
 ```typescript
 readonly values: T
@@ -116,7 +116,7 @@ Mutating the array originally passed to [`union()`](#unionallowedvalues) has no 
 
 <br>
 
-### `.isValid(value)`
+#### `.isValid(value)`
 
 ```typescript
 isValid(value: unknown): value is T[number]
@@ -128,7 +128,7 @@ Acts as a TypeScript type guard: when it returns `true`, `value` is narrowed to 
 
 <br>
 
-### `.isValidArray(value)`
+#### `.isValidArray(value)`
 
 ```typescript
 isValidArray(value: unknown): value is T[number][]
