@@ -1,6 +1,6 @@
 {
   "name": "@igorskyflyer/unite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Zero-dependency TypeScript library for deriving a union type, a type guard, and an array validator from a single source array.",
   "type": "module",
   "sideEffects": false,
