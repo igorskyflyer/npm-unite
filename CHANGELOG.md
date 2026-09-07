@@ -1,9 +1,9 @@
 # 📒 Changelog
 
-### of [**@igorskyflyer/{{pkg}}**](https://github.com/igorskyflyer/{{repo}})
+### of [**@igorskyflyer/unite**](https://github.com/igorskyflyer/npm-unite)
 
 <br>
 
-## v1.0.0 – *2026-MM-DD*
+## v1.0.0 – _2026-09-07_
 
 - **🚀 env**: release initial version 🎉
