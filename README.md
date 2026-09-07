@@ -25,9 +25,9 @@
 - 🤹🏼 [**API**](#api)
   - [**union()**](#unionallowedvalues)
   - [**UnionValidator\<T\>**](#unionvalidatort)
-    - [**.values**](#values)
     - [**.isValid()**](#isvalidvalue)
     - [**.isValidArray()**](#isvalidarrayvalue)
+    - [**.values**](#values)
   - [**ExtractUnion\<T\>**](#extractuniont)
 - 🗒️ [**Examples**](#examples)
     - [**Basic Usage**](#basic-usage)
@@ -104,18 +104,6 @@ The interface returned by [`union()`](#unionallowedvalues). Exported to allow ex
 
 <br>
 
-#### `.values`
-
-```typescript
-readonly values: T
-```
-
-The original array of allowed values, frozen and returned as-is.
-
-Mutating the array originally passed to [`union()`](#unionallowedvalues) has no effect on this property or on the validator's behavior.
-
-<br>
-
 #### `.isValid(value)`
 
 ```typescript
@@ -137,6 +125,18 @@ isValidArray(value: unknown): value is T[number][]
 Checks whether every element of an array belongs to the allowed set.
 
 Acts as a TypeScript type guard: when it returns `true`, `value` is narrowed to an array of the literal union type derived from the allowed values. Returns `false` if `value` is not an array. Returns `true` for an empty array.
+
+<br>
+
+#### `.values`
+
+```typescript
+readonly values: T
+```
+
+The original array of allowed values, frozen and returned as-is.
+
+Mutating the array originally passed to [`union()`](#unionallowedvalues) has no effect on this property or on the validator's behavior.
 
 <br>
 
