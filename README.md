@@ -97,7 +97,7 @@ The array should be passed as a literal, or as a value typed with `as const`, so
 interface UnionValidator<T extends readonly string[]>
 ```
 
-The interface returned by [`union()`](#unionallowedvalues). Exported to allow explicit type annotations on exported variables when strict declaration emit is required.
+The interface returned by [`union()`](#unionallowedvalues). Exported to allow explicit type annotations on exported variables when `isolatedDeclarations` is enabled in project's `tsconfig.json`.
 
 <br>
 
