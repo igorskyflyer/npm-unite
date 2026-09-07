@@ -112,7 +112,7 @@ readonly values: T
 
 The original array of allowed values, frozen and returned as-is.
 
-Mutating the array originally passed to `union()` has no effect on this property or on the validator's behavior.
+Mutating the array originally passed to [`union()`](#unionallowedvalues) has no effect on this property or on the validator's behavior.
 
 <br>
 
@@ -146,7 +146,7 @@ Acts as a TypeScript type guard: when it returns `true`, `value` is narrowed to 
 type ExtractUnion<T extends { _type: unknown }> = T['_type']
 ```
 
-Extracts the literal union type from a `UnionValidator` instance returned by `union()`.
+Extracts the literal union type from a [`UnionValidator<T>`](#unionvalidatort) instance returned by [`union()`](#unionallowedvalues).
 
 <br>
 
