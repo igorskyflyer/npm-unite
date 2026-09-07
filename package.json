@@ -1,7 +1,7 @@
 {
-  "name": "@igorskyflyer/{{pkg}}",
+  "name": "@igorskyflyer/unite",
   "version": "1.0.0",
-  "description": "{{desc}}",
+  "description": "Zero-dependency TypeScript library for deriving a union type, a type guard, and an array validator from a single source array.",
   "type": "module",
   "sideEffects": false,
   "engines": {
@@ -21,12 +21,12 @@
   "dependencies": {},
   "peerDependencies": {},
   "devDependencies": {
-    "@biomejs/biome": "^2.5.11",
+    "@biomejs/biome": "^2.5.12",
     "@igorskyflyer/biome-config": "^3.0.3",
     "@igorskyflyer/tsconfig": "^2.0.1",
     "@types/node": "^24.13.3",
     "typescript": "^7.0.2",
-    "vitest": "^4.1.11"
+    "vitest": "^5.0.0"
   },
   "scripts": {
     "build": "tsc",
@@ -34,7 +34,7 @@
     "pub": "pnpm test && pnpm build && git push origin main --tags",
     "prepack": "pnpm build"
   },
-  "packageManager": "pnpm@11.24.0",
+  "packageManager": "pnpm@12.3.4",
   "license": "MIT",
   "publishConfig": {
     "access": "public",
@@ -42,16 +42,24 @@
   },
   "author": "Igor Dimitrijević <support@igorskyflyer.me> (https://github.com/igorskyflyer)",
   "funding": "https://ko-fi.com/igorskyflyer",
-  "homepage": "https://github.com/igorskyflyer/{{repo}}",
+  "homepage": "https://github.com/igorskyflyer/npm-unite",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/igorskyflyer/{{repo}}.git"
+    "url": "git+https://github.com/igorskyflyer/npm-unite.git"
   },
   "bugs": {
-    "url": "https://github.com/igorskyflyer/{{repo}}/issues"
+    "url": "https://github.com/igorskyflyer/npm-unite/issues"
   },
   "keywords": [
-    "{{tags}}",
+    "union",
+    "safe-guard",
+    "const",
+    "validation",
+    "validator",
+    "runtime",
+    "declaration",
+    "types",
+    "source",
     "igor dimitrijević",
     "igorskyflyer"
   ]
