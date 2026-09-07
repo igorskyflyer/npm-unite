@@ -1,0 +1,17 @@
+{
+  "extends": "@igorskyflyer/tsconfig",
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    "test/**/*",
+    "dist/**/*"
+  ],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "sourceMap": false,
+    "declarationMap": false
+  }
+}
