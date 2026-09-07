@@ -24,10 +24,11 @@
 - 🕵🏼 [**Usage**](#usage)
 - 🤹🏼 [**API**](#api)
   - [**union()**](#unionallowedvalues)
+  - [**UnionValidator\<T\>**](#unionvalidatort)
   - [**.values**](#values)
   - [**.isValid()**](#isvalidvalue)
   - [**.isValidArray()**](#isvalidarrayvalue)
-  - [**extractUnion\<T\>**](#extractuniont)
+  - [**ExtractUnion\<T\>**](#extractuniont)
 - 🗒️ [**Examples**](#examples)
 - ⚙️ [**Implementation**](#implementation)
 - 🎯 [**Motivation**](#motivation)
@@ -77,6 +78,16 @@ npm i @igorskyflyer/unite
 <br>
 
 ## API
+
+### `UnionValidator<T>`
+
+```typescript
+interface UnionValidator<T extends readonly string[]>
+```
+
+The interface returned by [`union()`](#unionallowedvalues). Exported to allow explicit type annotations on exported variables when strict declaration emit is required.
+
+<br>
 
 ### `union(allowedValues)`
 
