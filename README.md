@@ -203,7 +203,7 @@ Licensed under the [**MIT license**](https://github.com/igorskyflyer/npm-unite/b
 ## Support
 
 <div align="center">
-  If this open-source project has saved you time or improved your workflow, consider supporting its continued development via <a href="https://liberapay.com/igorskyflyer/donate"><strong>LiberaPay</a> or <a href="https://ko-fi.com/igorskyflyer"><strong>Ko-Fi</strong></a>.
+  If this open-source project has saved you time or improved your workflow, consider supporting its continued development via <a href="https://liberapay.com/igorskyflyer/donate"><strong>LiberaPay</strong></a> or <a href="https://ko-fi.com/igorskyflyer"><strong>Ko-Fi</strong></a>.
   <br>
   <br>
   <a href="https://liberapay.com/igorskyflyer/donate"><img alt=" Igor Dimitrijević (igorskyflyer) - Donate via Liberapay to Sustain Open-Source Projects" src="https://liberapay.com/assets/widgets/donate.svg" loading="lazy"></a> <a href="https://ko-fi.com/igorskyflyer"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Support Igor Dimitrijević (igorskyflyer) - Donate via Ko-Fi to Sustain Open-Source Projects" width="120" height="30" loading="lazy"></a>
@@ -250,4 +250,4 @@ Licensed under the [**MIT license**](https://github.com/igorskyflyer/npm-unite/b
 
 ## Author
 
-Created by <a href="https://igorskyflyer.me/" target="_blank"><strong>Igor Dimitrijević (<em>igorskyflyer</em>)</strong></a>, a senior full-stack software engineer and freelance architect.
+Created by <a href="https://igorskyflyer.me/"><strong>Igor Dimitrijević (<em>igorskyflyer</em>)</strong></a>, a senior full-stack software engineer and freelance architect.
