@@ -23,4 +23,4 @@ jobs:
       - run: pnpm install
       - run: pnpm exec tsc
       - run: pnpm --if-present test
-      - run: pnpm stage publish --access public --provenance
+      - run: pnpm stage publish --access public --provenance --no-git-checks
